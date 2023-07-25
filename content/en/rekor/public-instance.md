@@ -5,7 +5,7 @@ position: 302
 ---
 
 A public instance of Rekor can be found at [rekor.sigstore.dev](https://rekor.sigstore.dev). The public instance offers an SLO
-of 99.9% availability and is monitored by an oncall team.
+of 99.5% availability and is monitored by an oncall team.
 
 ## Auditing the Public Instance
 
@@ -20,5 +20,5 @@ use the [provided reusable workflow](https://github.com/sigstore/rekor-monitor/b
 to audit the log. You can also monitor the log for specified identities, though
 this feature is a work in progress and supports a limited set of identities and entry types.
 
-You can also run [omniwitness](https://github.com/google/trillian-examples/tree/master/witness/golang/omniwitness) to
+You can also run [omniwitness](https://github.com/transparency-dev/witness/tree/main/cmd/omniwitness) to
 audit the log, built by the team who created Trillian, which provides Rekor's verifiable log.
